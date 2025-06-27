@@ -41,4 +41,4 @@ services:
       POSTGRES_PASSWORD: example
       POSTGRES_DB: postgres
     volumes:
-      - ./database: ./database
+      - ./database:/var/lib/postgresql/data
